@@ -1,13 +1,13 @@
 let myImage = document.querySelector('img');
-var audio = new Audio("images/tuki.mp3");
+var audio = new Audio("tuki.mp3");
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/mirai.jpg') {
-      myImage.setAttribute('src','images/tuki.png');
+    if(mySrc === 'mirai.jpg') {
+      myImage.setAttribute('src','tuki.png');
       audio.play();
     } else {
-      myImage.setAttribute('src','images/mirai.jpg');
+      myImage.setAttribute('src','mirai.jpg');
       audio.play();
     }
 }
