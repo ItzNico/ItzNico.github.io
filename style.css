@@ -1,5 +1,5 @@
 html {
-  background-image: url(../images/testbg.png) , url(../images/testbg2.jpg);
+  background-image: url(testbg.png) , url(testbg2.jpg);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
   background-color: antiquewhite;
