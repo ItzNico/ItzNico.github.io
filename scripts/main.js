@@ -3,7 +3,7 @@ var audio = new Audio("../media/tuki.mp3");
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'mirai.jpg') {
+    if(mySrc === '..media/mirai.jpg') {
       myImage.setAttribute('src','../media/tuki.png');
       audio.play();
     } else {
